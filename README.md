@@ -1,14 +1,14 @@
 # JQuery
    $(document).ready(function() {
     });
-        #without your document ready function, your code may run before your HTML is rendered, which would cause bugs.
-    # All JQuery functions start with a $, usually referred to as a dollar sign operator, or as bling.
+        without your document ready function, your code may run before your HTML is rendered, which would cause bugs.
+     All JQuery functions start with a $, usually referred to as a dollar sign operator, or as bling.
        jQuery often selects an HTML element with a selector, then does something to that element.
 
         For example, let's make all of your button elements bounce. Just add this code inside your document ready function:
 
         $("button").addClass("animated bounce"); 
-    # You just used jQuery's .addClass() function, which allows you to add classes to elements.
+     You just used jQuery's .addClass() function, which allows you to add classes to elements.
         First, let's target your div elements with the class well by using the $(".well") selector.
 
         Note that, just like with CSS declarations, you type a . before the class's name.
